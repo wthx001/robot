@@ -1,0 +1,18 @@
+文件夹 右键 Git Bash Here 弹出了git命令控制台！
+
+1、把本地库的内容推送到远程，使用
+git push wtrobot master
+
+git push -u  wtrobot master
+
+2、拉取最新数据到本地仓库
+git pull  wtrobot master
+
+3、看是否有没有远程 仓库源
+
+git remote      //--git查看远程仓库信息
+
+4、 创建仓库
+git remote add wtrobot git@github.com:wthx001/robot.git
+
+5、git init   ； git add .  ； git commit -m "注释（可以任意）"
